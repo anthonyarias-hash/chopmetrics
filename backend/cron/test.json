@@ -1,0 +1,16 @@
+[
+  {
+    "store": "Hollywood",
+    "date": "2025-07-06",
+    "total_sales": 36572.36,
+    "orders": 817,
+    "new_customers": 413
+  },
+  {
+    "store": "Mid City",
+    "date": "2025-07-06",
+    "total_sales": 14053.13,
+    "orders": 321,
+    "new_customers": 207
+  }
+]

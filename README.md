@@ -38,3 +38,9 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+python cron/weekly_ingest.py

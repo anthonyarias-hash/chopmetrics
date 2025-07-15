@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2025-07-08",
+    "product_name": "Chopped Cheese",
+    "quantity_sold": 34,
+    "total_sales": 442.50,
+    "delivery_platform": "UberEats"
+  },
+  {
+    "date": "2025-07-08",
+    "product_name": "BEC (Bacon Egg Cheese)",
+    "quantity_sold": 22,
+    "total_sales": 198.00,
+    "delivery_platform": "DoorDash"
+  },
+  {
+    "date": "2025-07-08",
+    "product_name": "YERRR Sauce",
+    "quantity_sold": 9,
+    "total_sales": 66.15,
+    "delivery_platform": "In-Store"
+  },
+  {
+    "date": "2025-07-08",
+    "product_name": "Cold Sandwich Combo",
+    "quantity_sold": 11,
+    "total_sales": 132.00,
+    "delivery_platform": "Grubhub"
+  }
+]

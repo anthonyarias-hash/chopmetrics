@@ -1,0 +1,18 @@
+[
+  {
+    "platform": "Yelp",
+    "store": "Hollywood",
+    "author": "Becca D.",
+    "rating": 5,
+    "date": "2025-07-05",
+    "text": "Classic NY-style chopped cheese done well!"
+  },
+  {
+    "platform": "Google",
+    "store": "Mid City",
+    "author": "William",
+    "rating": 1,
+    "date": "2025-07-02",
+    "text": "Greasy mess with no flavor. Got the banger combo $25..."
+  }
+]
