@@ -30,17 +30,21 @@ ChopMetrics is an automated weekly insights engine built for New York’s Choppe
 
 ---
 
-## 🚀 Quickstart (Dev)
+## 🚀 Quick Start
 
 ```bash
-cd backend
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+git clone https://github.com/YOUR_USERNAME/chopmetrics.git
+cd chopmetrics/backend
 
-python3 -m venv env
-source env/bin/activate
+# Create virtual environment and activate
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-cp .env.example .env
+
+# Setup database
+alembic upgrade head
+
+# Run ingestion job
 python cron/weekly_ingest.py

@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 # ChopMetrics
 
-ChopMetrics is a fully automated performance insight engine for New York's Chopped Cheese and future small businesses.
+ChopMetrics is a fully automated performance insight engine for New Yorks Chopped Cheese and future small businesses.
 
 ## Features
 - Automated data ingestion from sales, delivery, review, and web/email sources
