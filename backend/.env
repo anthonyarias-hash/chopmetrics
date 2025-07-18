@@ -1,1 +1,0 @@
-DATABASE_URL=postgresql://chopmetrics_user:super_secure_password@localhost:5432/chopmetrics
