@@ -1,6 +1,17 @@
-from sqlalchemy import Column, Integer, String, Numeric, Date, Text, ForeignKey, Boolean, TIMESTAMP
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    Numeric,
+    Date,
+    Text,
+    ForeignKey,
+    Boolean,
+    TIMESTAMP,
+)
 from sqlalchemy.sql import func
 from .database import Base
+
 
 class Store(Base):
     __tablename__ = "stores"
@@ -8,6 +19,7 @@ class Store(Base):
     name = Column(String(100))
     location_code = Column(String(50), unique=True)
     address = Column(Text)
+
 
 class SalesData(Base):
     __tablename__ = "sales_data"
@@ -21,6 +33,7 @@ class SalesData(Base):
     source_file = Column(Text)
     created_at = Column(TIMESTAMP, server_default=func.now())
 
+
 class Review(Base):
     __tablename__ = "reviews"
     id = Column(Integer, primary_key=True)
@@ -30,6 +43,7 @@ class Review(Base):
     rating = Column(Numeric(2, 1))
     comment = Column(Text)
     created_at = Column(TIMESTAMP, server_default=func.now())
+
 
 class WeeklyReport(Base):
     __tablename__ = "weekly_reports"
